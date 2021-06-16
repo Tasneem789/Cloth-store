@@ -683,39 +683,68 @@
 
 .shop-price{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-content: center;
-    align-items: flex-start;
+    align-items: center;
     transition: all 0.5s ease;
-    position: relative;
-    min-width: 370px;
-    height: 220px;
-    border: 1.5px solid rgb(206, 206, 206);
-    border-radius: 4px;
-    padding: 0 20px;
+    width: 250px;
+    height: 520px;
+    padding: 0 10px;
     margin-top: 30px;
 }
 
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+}
+
+.size{
+    padding: 0px 0;
+}
+
+.range{
+    padding: 10px 0 5px 0;
+}
+
+
 .color{
-    padding-top: 30px;
+    padding-top: 10px;
+}
+
+
+.shop-price h4{
+    text-align: center;
 }
 
 .shop-category h4{
     font-size: 18px;
+    text-align: center;
 }
 
 .shop-category p{
     font-size:12px;
 }
 
-.shop-price h4{
-    font-size: 18px;
+.shop-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    transition: all 0.5s ease;
+    width: 250px;
+    height: 220px;
+    padding: 10px 30px;
 }
 
 .shop-price p{
     font-size:12px;
 }
+
 
 .shop-select{
     display: flex;
