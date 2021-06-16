@@ -1,0 +1,444 @@
+
+
+/**PRODUCTS DIV START**/
+.product-section{
+    background-color: #f5fbfc;
+}
+
+.product-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
+.product-hr{
+    width: 50px;
+    height: 2px;
+    background-color: var(--color);
+}
+
+.product-head{
+    padding: 20px 0;
+}
+
+.product-div h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.product{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 340px;
+    height: auto;
+}
+
+.card-img-top {
+    border-top-left-radius: none !important; border-top-right-radius: none !important;
+}
+
+.product-text{
+ padding: 10px 20px;
+}
+
+.product h5{
+    text-align: center;
+    color: var(--color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product p{
+    text-align: center;
+    color: var(--heavy-smoke);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product h6{
+    text-align: center;
+    color: var(--color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**PRODUCTS DIV END**/
+
+
+
+
+/**TANK DIV START**/
+.tank-div{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.tank-div img{
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+
+.tank-div h2{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease;
+    font-weight: bold;
+    
+}
+
+.tank-div p{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease;
+    color: var(--heavy-smoke);
+    text-align: left;
+}
+
+.tank-div span{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease;
+    color: var(--color);
+    font-size: 30px;
+}
+
+.tank-text{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.tank-box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.radio{
+    padding-right: 30px;
+    transition: all 0.5s ease;
+}
+
+.tank-numb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    width: 130px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.counter{
+    width: 70px;
+    height: 50px;
+    border-bottom: 1px solid #919191;
+    border-top: 1px solid #919191;
+}
+
+.plus button{
+    border: none;
+    width: 40px;
+    height: 50px;
+    border: 1px solid var(--color);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+}
+
+
+
+.plus button:hover{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: var(--color);
+    color: var(--white);
+}
+
+
+.minus button{
+    border: none;
+    width: 40px;
+    height: 50px;
+    border: 1px solid var(--color);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+}
+
+
+.minus button:hover{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: var(--color);
+    color: var(--white);
+}
+
+
+.tank-btn{
+    padding-top: 80px;
+}
+
+.tank-btn a{
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.tank-btn a:hover{
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+/**TANK DIV END**/
+
+
+
+
+
+
+/* Media Quieries */
+
+  /** For smaller mobile devices  less than 767px **/
+  @media (max-width: 767px){
+    .header-div{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+  
+    }
+
+    .icons-head {
+        margin-top: 20px;
+    }
+
+
+    .search-head{
+        display: none;
+    }
+  
+    .small-search{
+        opacity: 1 !important;
+    }
+
+    .sign-div p{
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    /**PRODUCT DIV START**/
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.product{
+    margin-top: 20px;
+}
+
+/**PRODUCT DIV END**/
+
+
+/**TANK DIV START**/
+
+.tank-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.tank-img{
+    max-width: 100%;
+
+}
+
+
+.tank-text{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.tank-div h2{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.tank-div p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/**TANK DIV START**/
+
+
+}
+
+
+
+  /** For less than tablet devices more than 0px and less than 575px **/
+  @media only screen and (min-width: 767px) and (max-width: 1129px){
+
+    .product-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .product{
+        margin-right: 20px;
+    }
+
+  }
+
+
+     /* For Medium devices tablets more than 767px and less than 991px */
+     @media only screen and  (min-width: 760px) and (max-width: 1129px) { 
+      /**PRODUCT DIV START**/
+.product-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.product{
+    margin-right: 20px;
+    max-width: 240px;
+    height: 360px;
+}
+
+.product img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 240px;
+    height: auto;
+}
+
+/**PRODUCT DIV END**/
+
+
+/**TANK DIV START**/
+.tank-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.tank-img{
+    max-width: 50%;
+
+}
+
+.tank-text{
+    max-width: 50%;
+}
+
+.tank-div h2{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.tank-div p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+/**TANK DIV END**/
+
+
+
+     }
+
+
+
+         /* For Medium devices tablets more than 991px and less than 991px  between 991px:1130px */
+    @media only screen and  (min-width: 991px) and (max-width: 1130px) { 
+     
+
+        /**MAIN ABOUT DIV START**/
+        .tank-div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+            align-items: flex-start;
+        }
+       
+
+        .tank-img{
+            max-width: 100%;
+        
+        }
+        
+        .tank-text{
+            max-width: 100%;
+            padding-top: 50px;
+        }
+
+        /** MAIN ABOUT DIV END**/
+
+
+    }

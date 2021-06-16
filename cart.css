@@ -1,0 +1,1010 @@
+
+
+
+
+/*ABOUT MAIN DIV*/
+.main-about-div{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.main-about-img{
+    max-width: 50%;
+    transition: all 0.5s ease;
+}
+
+.main-about-text{
+    max-width: 50%;
+}
+
+.main-about-div img{
+    max-width:  100%;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.main-about-div h2{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease;
+    font-weight: bold;
+    
+}
+
+.main-about-div p{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease;
+    color: var(--heavy-smoke);
+}
+
+
+/*ABOUT MAIN DIV*/
+
+
+/**TABLE DIV START**/
+.table{
+    border-bottom: none !important;
+}
+
+th h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td{
+    height: 100px !important;
+}
+
+table h6{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25%;
+}
+
+table p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 50% auto;
+}
+
+
+.table-img img{
+    width: 90%;
+    height: auto;
+    transition: all 0.5s ease;
+    margin: 10% 5%;
+}
+
+.table-img{
+    width: 250px;
+    height: 200px;    
+}
+
+.tank-numb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    width: 130px;
+    height: 50px;
+    padding-top: 20px;
+    margin: 20% auto;
+}
+
+.counter{
+    width: 70px;
+    height: 50px;
+    border-bottom: 1px solid #919191;
+    border-top: 1px solid #919191;
+}
+
+.plus button{
+    border: none;
+    width: 40px;
+    height: 50px;
+    border: 1px solid var(--color);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+}
+
+
+
+.plus button:hover{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: var(--color);
+    color: var(--white);
+    transition: all 0.5s ease;
+}
+
+
+.minus button{
+    border: none;
+    width: 40px;
+    height: 50px;
+    border: 1px solid var(--color);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+}
+
+
+.minus button:hover{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: var(--color);
+    color: var(--white);
+    transition: all 0.5s ease;
+}
+
+.remove-btn{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color);
+    border-radius: 4px;
+    margin: 50% 25%;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+
+
+td button:hover{
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+.small-table{
+    display: none;
+}
+
+.bg-table{
+    display: block;
+}
+
+
+
+/**TABLE DIV END**/
+
+/**COUPON DIV END**/
+.coupon-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.coupon-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    height: 200px;
+    transition: all 0.5s ease;
+}
+
+.coupon-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    transition: all 0.5s ease;
+}
+
+.frst-btn{
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.frst-btn a{
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 10px 55px;
+    border-radius: 5px;
+}
+
+.frst-btn a:hover{
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.scnd-btn a{
+    background-color: transparent;
+    color: var(--color);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--color);
+}
+
+.scnd-btn a:hover{
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    margin-top: 50px;
+    transition: all 0.5s ease; 
+}
+
+
+.coupon-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    transition: all 0.5s ease;
+}
+
+.coupon-div h6{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.coupon-div p{
+    font-family: 'Montserrat', sans-serif;
+    color: #919191;
+    letter-spacing: -0.5px;
+    transition: all 0.5s ease;
+}
+
+.coupon-mail{
+    margin-right: 20px;
+}
+
+.coupon-mail input{
+    outline: none;
+    border: none;
+    border: 1px solid #919191;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    text-indent: 15px;
+    transition: all 0.5s ease;
+}
+
+.coupon-mail input:focus{
+    text-indent: 30px;
+    transition: all 0.5s ease;
+}
+
+
+.copoun-btn input{
+    outline: none;
+    border: none;
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.copoun-btn input:hover{
+    transition: all 0.5s ease;
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.total-btn{
+    margin-top: 30px;
+}
+
+.coupon-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+}
+
+.coupon-total h6{
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.coupon-total p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coupon-total a{
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.coupon-total a:hover{
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/**COUPON DIV END**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**FOOTER DIV START**/
+.foot-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.foot-div ul{
+    list-style-type: none;
+}
+
+.foot-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    transition: all 0.5s ease; 
+}
+
+.foot-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: no-wrap;
+    transition: all 0.5s ease;
+}
+
+.foot-link h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.foot-link > div{
+    margin-right: 20px;
+}
+
+.foot-link li{
+    padding-bottom: 10px;
+}
+
+.foot-link a{
+    color: var(--heavy-smoke);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.foot-link a:hover{
+    color: var(--color);
+}
+
+.foot-promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 50px;
+    transition: all 0.5s ease;
+}
+
+.foot-promo > div{
+    margin-bottom: 10px;
+}
+
+.foot-promo h5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    
+}
+
+.promo-img{
+    width: 240px;
+    height: 120px;
+    background-image: url(img/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.foot-promo p{
+    color: var(--heavy-smoke);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.foot-promo span{
+    color: var(--color);
+    font-weight: bold;
+}
+
+.foot-contact h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.foot-contact{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transition: all 0.5s ease;
+}
+
+.contact-input{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+
+.contact-input .email{
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+
+.contact-input .sub{
+    border: none;
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-row span{
+    color: var(--heavy-smoke);
+}
+
+.contact-row i{
+    color: var(--color);
+    padding-right: 10px;
+    font-size: 20px
+}
+/**FOOTER DIV END**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Quieries */
+
+
+    @media (max-width: 414px){
+        table{
+            width: 250px;
+        }
+
+        .small-table{
+            display: block;
+        }
+
+        .smal-img img{
+            max-width: 80%;
+            height: auto;
+        }
+    
+        .small-table th{
+            width: 150px;
+        }
+    
+        .small-table td{
+            width: 100px;
+        }
+
+        .bg-table{
+            display: none;
+        }
+    }
+
+
+  /** For smaller mobile devices  less than 767px **/
+  @media (max-width: 767px){
+
+
+    .header-div{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+  
+    }
+
+    .icons-head {
+        margin-top: 20px;
+    }
+
+
+    .search-head{
+        display: none;
+    }
+  
+    .small-search{
+        opacity: 1 !important;
+    }
+
+    .sign-div p{
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+        /*ABOUT MAIN DIV START*/
+
+    .main-about-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    .main-about-img{
+        max-width: 100%;
+    
+    }
+    
+    .main-about-text{
+        max-width: 100%;
+    }
+
+    .main-about-div h2{
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .main-about-div p{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    
+    /*ABOUT MAIN DIV END*/
+
+
+
+    /**TABLE DIV START**/
+    td{
+        vertical-align: middle;
+        top: 50%;
+        left: 50%;
+        height: 50px !important;
+    
+    }
+
+    
+
+    th h2{
+        font-size: 14px;
+    }
+    
+    table h6{
+        font-size: 12px;
+        margin-top: 25%;
+    }
+    
+    table p{
+        font-size: 12px;
+        margin: 50% auto;
+    }
+    
+    
+    .table-img img{
+        width: 100%;
+        margin: 10% 5%;
+    }
+    
+    .table-img{
+        width: 250px;
+        height: 200px;    
+    }
+    
+    .tank-numb{
+        width: 65px;
+        height: 25px;
+        padding-top: 20px;
+        margin: 20% auto;
+    }
+    
+    .counter{
+        width: 35px;
+        height: 25px;
+        border-bottom: 1px solid #919191;
+        border-top: 1px solid #919191;
+    }
+    
+    .plus button{
+        border: none;
+        width: 20px;
+        height: 25px;
+        border: 1px solid var(--color);
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: transparent;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color);
+    }
+    
+    
+    
+    .plus button:hover{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: var(--color);
+        color: var(--white);
+    }
+    
+    
+    .minus button{
+        border: none;
+        width: 20px;
+        height: 25px;
+        border: 1px solid var(--color);
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color: transparent;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color);
+    }
+    
+    
+    .minus button:hover{
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color: var(--color);
+        color: var(--white);
+    }
+    
+    .remove-btn{
+        width: 20px;
+        height: 20px;
+        background-color: var(--color);
+        border-radius: 4px;
+        margin: 50% 25%;
+        border: none;
+        font-weight: bolder;
+        font-size: 15px;
+        color: white;
+    }
+
+    .frst-btn{
+        margin-right: 0;
+        transition: all 0.5s ease;
+    }
+    
+
+
+    /**TABLE DIV END**/
+
+/**COUPON DIV START**/
+.coupon-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.coupon-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.frst-btn{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px; 
+}
+
+.coupon h6{
+    text-align: center;
+}
+
+.coupon p{
+    text-align: center;
+}
+
+
+.coupon-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.coupon-mail{
+    margin-bottom: 40px;
+}
+
+.coupon-total{
+    margin-top: 150px;
+}
+
+
+.coupon-total h6{
+    text-align: center;
+}
+/**COUPON DIV END**/
+
+
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+    /**COUPON DIV START**/
+.coupon-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.coupon-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+}
+
+.frst-btn{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px; 
+}
+
+.coupon h6{
+    text-align: center;
+}
+
+.coupon p{
+    text-align: center;
+}
+
+
+.coupon-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.coupon-mail{
+    margin-bottom: 40px;
+}
+
+.coupon-total{
+    margin-top: 150px;
+}
+
+
+.coupon-total h6{
+    text-align: center;
+}
+/**COUPON DIV END**/
+
+
+}
+
+
+@media only screen and (min-width: 1020px) and (max-width: 1023px){
+    .foot-contact{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1129px){
+
+    /*ABOUT MAIN DIV*/
+
+    .main-about-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    .main-about-img{
+        max-width: 50%;
+    
+    }
+    
+    .main-about-text{
+        max-width: 50%;
+    }
+
+    .main-about-div h2{
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .main-about-div p{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    
+/*ABOUT MAIN DIV*/
+
+
+}
+
+
+
+
+
+/* For Medium devices tablets more than 991px and less than 991px  between 991px:1130px */
+@media only screen and  (min-width: 991px) and (max-width: 1130px) { 
+     
+
+    /**MAIN ABOUT DIV START**/
+    .main-about-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: flex-start;
+    }
+   
+
+    .main-about-img{
+        max-width: 100%;
+    
+    }
+    
+    .main-about-text{
+        max-width: 100%;
+        padding-top: 50px;
+    }
+
+    /** MAIN ABOUT DIV END**/
+
+
+
+}

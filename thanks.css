@@ -1,0 +1,43 @@
+.thank-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thank-div i{
+    color: rgb(20, 182, 20);
+    font-size: 90px;
+}
+
+.thank-div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    color: black;
+}
+
+.thank-div h6{
+    font-family: 'Poppins', sans-serif;
+    color: #919191;
+}
+
+.thank-btn{
+    margin-top: 50px;
+}
+
+.thank-div a{
+    background-color: var(--color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.thank-div a:hover{
+    background-color: #5c56b8;
+    color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
