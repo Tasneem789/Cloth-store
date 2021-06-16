@@ -274,14 +274,25 @@ form textarea{
         align-items: flex-start;
     }
 
+.row{
+    flex-wrap: nowrap !important;
+    align-items: baseline !important;
+}
+
     .lft-form{
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+    .lft-form form{
+        padding: 20px;
+    }
+    
     
     .coupon-code{
         align-items: stretch; 
         transition: all 0.5s ease;
+        padding: 20px;
     }
 
     .coupon-code input{
