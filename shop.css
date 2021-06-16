@@ -645,6 +645,12 @@
 .men, .child{
     margin-top: 30px;
 }
+      
+.men, .child, .women{
+    min-width: 300px;
+    height: 400px;
+}
+
 /**COLLECTION DIV END**/
 
 
