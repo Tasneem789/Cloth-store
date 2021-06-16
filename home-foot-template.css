@@ -507,6 +507,10 @@ html{
 .foot-contact p{
     font-size: 14px;
 }
+      
+.foot-footer{
+     padding: 0 100px;
+      }
 
 .foot-footer p{
     font-size: 12px;
