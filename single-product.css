@@ -273,6 +273,7 @@
     }
 
     /**PRODUCT DIV START**/
+
 .product-card{
     display: flex;
     flex-direction: column;
@@ -282,8 +283,24 @@
 }
 
 .product{
+    margin-right: 0 !important;
     margin-top: 20px;
+    width: 300px;
+    height: 350px;
 }
+
+.product img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 300px;
+    height: auto;
+}
+
+.product-div h4{
+    font-size: 30px;
+}
+
 
 /**PRODUCT DIV END**/
 
