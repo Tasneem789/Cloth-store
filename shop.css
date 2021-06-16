@@ -568,8 +568,8 @@
 }
       
 .men, .child, .women{
-    min-width: 300px;
-    height: 400px;
+    min-width: 250px;
+    height: 350px;
 }
 
 /**COLLECTION DIV END**/
