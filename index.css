@@ -582,17 +582,21 @@
     align-items: center;
     padding: 10px 70px;
 }
-
+      
 .sale-content img{
-    max-width: 500px;
+    max-width:300px;
     height: auto;
 }
+
+
 .sale-text{
     padding-top: 50px;
+    padding-left: 0;
 
 }
 
 .sale-text h5{
+    text-align: center;
     color: var(--color);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -602,9 +606,11 @@
 .sale-text h6{
     font-family: 'Montserrat', sans-serif;
     color: gray;
+    text-align: center;
 }
 
 .sale-text p{
+    text-align: center;
     color: var(--heavy-smoke);
     font-family: 'Poppins', sans-serif;
 }
