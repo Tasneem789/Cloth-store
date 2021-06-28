@@ -210,7 +210,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 40px;
     background-color: var(--color);
     border-radius: 4px;
-    margin: 50% 25%;
+    margin: 45% 25%;
     border: none;
     font-weight: bolder;
     font-size: 20px;
