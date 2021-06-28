@@ -102,8 +102,6 @@
             <p><span><a style="text-decoration: none; color: #7971ea" href="index.html">Home</a></span>/ <a style="text-decoration: none; color: #141414" href="single-product.html">Tank Top T-shirt</a></p>
         </div>
     </section>
-    
-    <br><br><br><br><br>
 
     <section>
     <div class="tank-div col-lg-12">
@@ -148,18 +146,12 @@
             </div>
 
             <div class="tank-numb">
-                <div class="plus">
-                    <button id="subtract">-</button>
+                <div class="number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
+                    <div class="input-div"><input class="quantity" min="0" name="quantity" value="1" type="number" max="100" min="1"></div>
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+                  </div>
                 </div>
-
-                <div class="counter">
-                    
-                </div>
-
-                <div class="minus">
-                    <button id="add">+</button>
-                </div>    
-            </div>
 
             <div class="tank-btn">
                 <a href="cart.html" style="text-decoration: none;">add to cart</a>
@@ -209,8 +201,9 @@
                     </div>
                 </div>
             </div>
-            <br><br><br><br><br>
+
         </div>
+        <br><br><br><br><br>
     </section>
 
     <br><br><br><br><br>
