@@ -105,6 +105,8 @@ input[type="number"] {
     appearance: textfield;
     font-size: 20px;
     text-align: center;
+        color: #1d1d1d;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type=number]::-webkit-inner-spin-button,
