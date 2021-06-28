@@ -51,6 +51,7 @@
 
 .small-text{
     display: none !important;
+    
 }
 
 
@@ -83,6 +84,7 @@
 
     .small-text{
         display: block !important;
+        transition: all 0.5s ease;
     }
 
     .big-text{
