@@ -202,6 +202,11 @@ form textarea{
 .order-btn a:hover{
     color: var(--white);
 }
+
+.small-text{
+    display: none !important;
+}
+
 /**FORM DIV END**/
 
 
@@ -236,34 +241,7 @@ form textarea{
 
   /** For smaller mobile devices  less than 767px **/
   @media (max-width: 767px){
-    .header-div{
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: center;
-        align-items: center;
-  
-    }
-
-    .icons-head {
-        margin-top: 20px;
-    }
-
-
-    .search-head{
-        display: none;
-    }
-  
-    .small-search{
-        opacity: 1 !important;
-    }
-
-    .sign-div p{
-        text-align: center;
-        padding: 20px 0 20px 0;
-    }
-
+ 
      
 
     /**FORM DIV START**/
@@ -314,6 +292,16 @@ form textarea{
     .rght-form h2{
         text-align: center;
         transition: all 0.5s ease;
+    }
+
+    
+    .small-text{
+        display: block !important;
+        margin-top:10px !important;
+    }
+
+    .big-text{
+        display: none !important;
     }
     /**FORM DIV END**/
 
