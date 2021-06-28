@@ -499,6 +499,10 @@
     align-content: center;
     padding: 0 70px;
 }
+      
+.frst-team, .scnd-team, .thrd-team{
+    margin-bottom:50px;
+      }
 /**EXPLAIN DIV END**/
 
 
