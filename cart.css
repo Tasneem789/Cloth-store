@@ -96,60 +96,112 @@ table p{
     justify-content: space-around;
     align-content: center;
     align-items: flex-start;
-    width: 130px;
-    height: 50px;
-    padding-top: 20px;
     margin: 20% auto;
 }
 
-.counter{
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    width: 120px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.input-div{
     width: 70px;
     height: 50px;
     border-bottom: 1px solid #919191;
     border-top: 1px solid #919191;
 }
 
-.plus button{
+
+.number-input button {
+  outline:none;
+  -webkit-appearance: none;
+  border: 1px solid #7971ea;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  color: #7971ea;
+}
+
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  content: '';
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.number-input input[type=number] {
+    width: 50px;
+    height: 45px;
+    outline: none;
+    border:none;
+    text-align: center
+}
+
+.minus{
     border: none;
     width: 40px;
     height: 50px;
-    border: 1px solid var(--color);
+    border: 1px solid #7971ea;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    color: var(--color);
+    color: #7971ea;
 }
 
-
-
-.plus button:hover{
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    background-color: var(--color);
-    color: var(--white);
+.minus:hover{
+    background-color: #7971ea;
+    color: #f1f1f1;
     transition: all 0.5s ease;
 }
 
 
-.minus button{
+.plus{
     border: none;
     width: 40px;
     height: 50px;
-    border: 1px solid var(--color);
+    border: 1px solid #7971ea;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    color: var(--color);
+    color: #7971ea;
 }
 
-
-.minus button:hover{
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    background-color: var(--color);
-    color: var(--white);
+.plus:hover{
+    background-color: #7971ea;
+    color: #f1f1f1;
     transition: all 0.5s ease;
 }
 
@@ -161,7 +213,7 @@ table p{
     margin: 50% 25%;
     border: none;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 
@@ -393,186 +445,6 @@ td button:hover{
 
 
 
-
-
-
-
-
-/**FOOTER DIV START**/
-.foot-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-}
-
-.foot-div ul{
-    list-style-type: none;
-}
-
-.foot-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    transition: all 0.5s ease; 
-}
-
-.foot-link{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    flex-wrap: no-wrap;
-    transition: all 0.5s ease;
-}
-
-.foot-link h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-}
-
-.foot-link > div{
-    margin-right: 20px;
-}
-
-.foot-link li{
-    padding-bottom: 10px;
-}
-
-.foot-link a{
-    color: var(--heavy-smoke);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.foot-link a:hover{
-    color: var(--color);
-}
-
-.foot-promo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: center;
-    margin-left: 50px;
-    transition: all 0.5s ease;
-}
-
-.foot-promo > div{
-    margin-bottom: 10px;
-}
-
-.foot-promo h5{
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-    
-}
-
-.promo-img{
-    width: 240px;
-    height: 120px;
-    background-image: url(img/hero_1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.foot-promo p{
-    color: var(--heavy-smoke);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.foot-promo span{
-    color: var(--color);
-    font-weight: bold;
-}
-
-.foot-contact h6{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-}
-
-.foot-contact{
-    margin-left: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    transition: all 0.5s ease;
-}
-
-.contact-input{
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 2px 3px;
-}
-
-.contact-input .email{
-    outline: none;
-    border: none;
-    text-indent: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-color: transparent;
-}
-
-.contact-input .sub{
-    border: none;
-    background-color: var(--color);
-    color: var(--white);
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none !important;
-    letter-spacing: 3px;
-    padding: 10px 15px;
-    border-radius: 3px;
-    font-size: 15px;
-}
-
-.contact-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.contact p{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.contact-row span{
-    color: var(--heavy-smoke);
-}
-
-.contact-row i{
-    color: var(--color);
-    padding-right: 10px;
-    font-size: 20px
-}
-/**FOOTER DIV END**/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Quieries */
 
 
@@ -707,62 +579,32 @@ td button:hover{
         height: 200px;    
     }
     
-    .tank-numb{
-        width: 65px;
-        height: 25px;
-        padding-top: 20px;
-        margin: 20% auto;
-    }
+.number-input {
+    width: 65px;
+    height: 25px;
+}
     
-    .counter{
-        width: 35px;
-        height: 25px;
-        border-bottom: 1px solid #919191;
-        border-top: 1px solid #919191;
-    }
-    
-    .plus button{
-        border: none;
-        width: 20px;
-        height: 25px;
-        border: 1px solid var(--color);
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-        background-color: transparent;
-        font-family: 'Poppins', sans-serif;
-        color: var(--color);
-    }
-    
-    
-    
-    .plus button:hover{
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-        background-color: var(--color);
-        color: var(--white);
-    }
-    
-    
-    .minus button{
-        border: none;
-        width: 20px;
-        height: 25px;
-        border: 1px solid var(--color);
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
-        background-color: transparent;
-        font-family: 'Poppins', sans-serif;
-        color: var(--color);
-    }
-    
-    
-    .minus button:hover{
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
-        background-color: var(--color);
-        color: var(--white);
-    }
-    
+
+.input-div{
+    width: 35px;
+    height: 25px;
+}
+
+.number-input input[type=number] {
+    font-size: 12px;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 6px;
+}
+
+.number-input button {
+    width: 20px;
+    height: 25px;
+
+  }
+
     .remove-btn{
         width: 20px;
         height: 20px;
@@ -771,7 +613,7 @@ td button:hover{
         margin: 50% 25%;
         border: none;
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 10px;
         color: white;
     }
 
