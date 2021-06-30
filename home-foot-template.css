@@ -361,11 +361,11 @@ html{
     padding: 2px 3px;
 }
 
-contact-input:focus{
+input:focus + .contact-input{
     border: 1px solid var(--color);
 }
 
-.contact-input input:focus{
+.contact-input input[type='email']:focus{
     text-indent: 10px;
 }
 
