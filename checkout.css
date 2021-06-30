@@ -109,7 +109,7 @@ form textarea{
 }
 
 
-.coupon-code input:active{
+.coupon-code input:focus{
     text-indent: 10px;
     transition: all 0.5s ease;
     border: 1px solid var(--color);
