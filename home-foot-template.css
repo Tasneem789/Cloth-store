@@ -365,7 +365,7 @@ contact-input:focus{
     border: 1px solid var(--color);
 }
 
-.email input:focus{
+.contact-input input:focus{
     text-indent: 10px;
 }
 
