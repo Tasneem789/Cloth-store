@@ -1,5 +1,7 @@
 
-
+  .dark-mode > .product-section{
+    background-color: #202020 !important;
+}
 
 /**SHOP DI START**/
     .shop-div{
@@ -84,9 +86,6 @@
     }
 
 
-    .size p{
-        color: black;
-    }
 
     .checkbox{
         display: flex;
@@ -101,7 +100,6 @@
     }
     .dual-range{
         position: relative;
-        background-color: #ffffff;
         border-radius: 10px;
         padding: 0 10px;
         margin-top: 30px;
@@ -203,7 +201,6 @@
       .color p{
           font-size: 15px;
           padding-left: 10px;
-          color: black;
       }
 
       .reds, .greens, .blues, .purples{
@@ -392,7 +389,7 @@
     background-color: var(--color);
 }
 
-.category-div h2{
+.category-div h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-align: center;
