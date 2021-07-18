@@ -1,8 +1,29 @@
+/**DARK MODE START**/
+body{
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #141414;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in-out;
+  }
 
+.dark-mode{
+    background-color: #1a1a1a !important;
+    color: white !important;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dark-mode .product-section{
+    background-color: #202020 !important;
+}
+
+
+  /**DARK MODE END**/
 
 /**PRODUCTS DIV START**/
 .product-section{
-    background-color: #f5fbfc;
+    background-color: #f5fbfc !important;
 }
 
 .product-div{
@@ -109,7 +130,7 @@
 }
 
 
-.tank-div h2{
+.tank-div h3{
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.5s ease;
@@ -190,7 +211,12 @@ input[type=number]::-webkit-outer-spin-button {
     padding-top: 20px;
 }
 
+.quantity{
+    background-color: transparent !important;
+}
+
 .input-div{
+    background-color: transparent;
     width: 70px;
     height: 50px;
     border-bottom: 1px solid #919191;
@@ -375,7 +401,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding-top: 40px;
 }
 
-.tank-div h2{
+.tank-div h3{
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -457,7 +483,7 @@ input[type=number]::-webkit-outer-spin-button {
     max-width: 50%;
 }
 
-.tank-div h2{
+.tank-div h3{
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     text-align: center;
