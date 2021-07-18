@@ -5,6 +5,7 @@
 
 
 
+
 :root{
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -26,9 +27,51 @@ html{
 
   body{
     box-sizing: border-box;
-    background-color: #fff !important;
     overflow-x: hidden;
   }
+
+  
+/**DARK MODE START**/
+  .sun{
+    display: none;
+  }
+
+  .moon{
+    display: block;
+  }
+
+
+  .dark-mode h2{
+    border: 1px solid #f5fbfc !important;
+}
+
+.dark-mode a{
+    color: white !important;
+}
+
+.dark-mode a:hover{
+    color: #3c33b3 !important;
+}
+
+.dark-mode input{
+    color: #f5fbfc;
+}
+
+.dark-mode .sign-div{
+  background-color: #1f1f1f !important;
+
+}
+
+.dark-mode .sign-div .HomeLink{
+  color: #3c33b3 !important;
+}
+
+.dark-mode .dropdown-item a{
+  color: black !important;
+}
+
+/**DARK MODE END**/
+
   
   ::-webkit-scrollbar {
     width: 10px;
@@ -73,7 +116,6 @@ html{
   .header-div h2{
     font-family: 'Open Sans Condensed', sans-serif;
     border: 1px solid var(--black);
-    color: var(--black);
     padding: 2px 15px;
     letter-spacing: 2px;
     text-align: center;
@@ -84,6 +126,18 @@ html{
     color: var(--heavy-smoke);
     padding: 0 5px;
     font-size: 20px;
+  }
+
+  .header-div svg{
+    color: var(--heavy-smoke);
+    padding: 0 5px;
+  }
+
+  .header-div svg:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s ease;
+    color: var(--color);
+    cursor: pointer;
   }
 
   .icons-head i:hover{
@@ -122,8 +176,7 @@ html{
 }
 
 .cart span:hover{
-    transform: scale(1.2,1.2);
-    transition: all 0.5s ease;
+
     cursor: pointer;
 }
 
@@ -136,6 +189,7 @@ html{
     z-index: 22;
     left: 18px;
     bottom: 31px;
+    color: #f5fbfc;
 }
 
 .header-div input:focus::placeholder{
@@ -202,7 +256,7 @@ html{
   
   .navbar-toggler-icon:before {
       content:"\f0c9";
-      color: #141414;
+      color: #5c56b8;
     }
     
   .navbar-toggler[aria-expanded=true] .navbar-toggler-icon:before {
@@ -221,7 +275,6 @@ html{
 .sign-div{
     background-color: #f5fbfc;
     padding: 20px 0 20px 30px;
-    color: var(--black);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
@@ -231,7 +284,6 @@ html{
 }
 
 /*SIGN DIV*/
-
 
 
 
