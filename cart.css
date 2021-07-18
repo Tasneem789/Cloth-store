@@ -1,4 +1,37 @@
+/**DARK MODE START**/
+body{
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #141414;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in-out;
+  }
 
+.dark-mode{
+    background-color: #1a1a1a !important;
+    color: white !important;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dark-mode table h6{
+    color: #f1f1f1 !important;
+}
+
+.dark-mode th h3{
+    color: #f1f1f1 !important;  
+}
+
+.dark-mode table p{
+    color: #f1f1f1 !important;  
+}
+
+.dark-mode .coupon-input input[type="email"]{
+    color: black;
+}
+
+
+  /**DARK MODE END**/
 
 
 
@@ -28,7 +61,7 @@
     transition: all 0.5s ease;
 }
 
-.main-about-div h2{
+.main-about-div h3{
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.5s ease;
@@ -51,7 +84,7 @@
     border-bottom: none !important;
 }
 
-th h2{
+th h3{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -105,7 +138,6 @@ input[type="number"] {
     appearance: textfield;
     font-size: 20px;
     text-align: center;
-        color: #1d1d1d;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -126,13 +158,17 @@ input[type=number]::-webkit-outer-spin-button {
     padding-top: 20px;
 }
 
+.quantity{
+    background-color: transparent !important;
+}
+
 .input-div{
+    background-color: transparent;
     width: 70px;
     height: 50px;
     border-bottom: 1px solid #919191;
     border-top: 1px solid #919191;
 }
-
 
 .number-input button {
   outline:none;
@@ -336,7 +372,6 @@ td button:hover{
 
 .coupon-div p{
     font-family: 'Montserrat', sans-serif;
-    color: #919191;
     letter-spacing: -0.5px;
     transition: all 0.5s ease;
 }
@@ -409,7 +444,6 @@ td button:hover{
 }
 
 .coupon-total p{
-    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -529,7 +563,7 @@ td button:hover{
         max-width: 100%;
     }
 
-    .main-about-div h2{
+    .main-about-div h3{
         text-transform: capitalize;
         font-family: 'Poppins', sans-serif;
         text-align: center;
@@ -556,7 +590,7 @@ td button:hover{
 
     
 
-    th h2{
+    th h3{
         font-size: 14px;
     }
     
@@ -802,7 +836,7 @@ td button:hover{
         max-width: 50%;
     }
 
-    .main-about-div h2{
+    .main-about-div h3{
         text-transform: capitalize;
         font-family: 'Poppins', sans-serif;
         text-align: center;
