@@ -1,4 +1,28 @@
+/**DARK MODE START**/
+body{
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #141414;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in-out;
+  }
 
+.dark-mode{
+    background-color: #1a1a1a !important;
+    color: white !important;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dark-mode > .product-section{
+    background-color: #202020 !important;
+}
+
+
+
+  
+  /**DARK MODE END**/
+  
 
 /*HOME DIV*/
 .home-div{
@@ -243,7 +267,7 @@
 
 /**PRODUCTS DIV START**/
 .product-section{
-    background-color: #f5fbfc;
+    background-color: #f5fbfc !important;
 }
 
 .product-div{
