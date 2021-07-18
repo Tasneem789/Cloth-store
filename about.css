@@ -1,23 +1,5 @@
 
 
-/*SIGN DIV*/
-.sign-div{
-    background-color: #f5fbfc;
-    padding: 20px 0 20px 30px;
-    color: var(--black);
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-}
-
-.sign-div span{
-    color: var(--color);
-}
-
-/*SIGN DIV*/
-
-
-
-
 
 /*ABOUT MAIN DIV*/
 .main-about-div{
@@ -45,7 +27,7 @@
     transition: all 0.5s ease;
 }
 
-.main-about-div h2{
+.main-about-div h3{
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.5s ease;
@@ -73,7 +55,7 @@
 
 }
 
-.team-div h2{
+.team-div h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-align: center;
