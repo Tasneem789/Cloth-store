@@ -1,4 +1,6 @@
-
+.dark-mode .table{
+    color: blanchedalmond !important;
+}
 
 /**FORM DIV START**/
 
@@ -32,7 +34,7 @@
     text-align: left;
     padding-top: 5px;
     padding: 10px 40px;
-    color: #919191;
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -130,14 +132,14 @@ form textarea{
     color: var(--white);
 }
 
-.lft-form h2{
+.lft-form h3{
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     text-transform: capitalize;
     transition: all 0.5s ease; 
 }
 
-.rght-form h2{
+.rght-form h3{
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     text-transform: capitalize;
@@ -286,12 +288,12 @@ form textarea{
         padding: 9px 10px;
     }
 
-    .lft-form h2{
+    .lft-form h3{
         text-align: center;
         transition: all 0.5s ease; 
     }
     
-    .rght-form h2{
+    .rght-form h3{
         text-align: center;
         transition: all 0.5s ease;
     }
