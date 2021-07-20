@@ -414,6 +414,15 @@ input[type=number]::-webkit-outer-spin-button {
 
 /**TANK DIV START**/
 
+.signup-div{
+    width: 100%;
+    right: 15px;
+}
+
+.getstart-btn{
+    bottom: 10px;
+    right: 20px;
+}
 
 }
 
@@ -432,6 +441,10 @@ input[type=number]::-webkit-outer-spin-button {
     
     .product{
         margin-right: 20px;
+    }
+
+    .signup-div{
+        width: 100% !important;
     }
 
   }
@@ -495,7 +508,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 /**TANK DIV END**/
 
-
+.signup-div{
+    width: 60%;
+}
 
      }
 
@@ -525,7 +540,181 @@ input[type=number]::-webkit-outer-spin-button {
             padding-top: 50px;
         }
 
-        /** MAIN ABOUT DIV END**/
+            /** MAIN ABOUT DIV END**/
+        .signup-div{
+            width: 60%;
+        }
 
 
     }
+
+
+
+
+/** GET STARTED BUTTON START**/
+
+.signup-div{
+    position: fixed;
+    z-index: 10999;
+    width: 60%;
+    height: auto;
+    bottom: 180px;
+}
+
+.signup-form{
+    position: fixed !important;
+    background-color: var(--white);
+    padding: 20px;
+    padding-top: 30px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    display: none;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+
+
+.signup-form label{
+    color: black !important;
+}
+
+form h3{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+    text-transform: uppercase;
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+
+
+form input[type="email"]{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-indent: 10px;
+}
+
+form input[type="email"]:focus{
+    text-indent: 2px;
+    transition: all 0.5s ease;
+}
+
+form input[type="text"]{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+form input[type="text"]:focus{
+    text-indent: 10px;
+    transition: all 0.5s ease;
+    border: none !important;
+    outline: none !important;
+}
+
+form input[type="password"]{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 5px 10px;
+    outline: none !important;
+}
+
+form input[type="password"]:focus{
+    text-indent: 10px;
+    transition: all 0.5s ease;
+    border: none !important;
+    outline: none !important;
+}
+
+.sign-btn{
+    text-transform: uppercase !important;
+    color: rgb(255, 248, 236) !important;
+    background-color: var(--color) !important;
+    border-radius: 4px !important;
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+    font-family: 'Poppins', sans-serif !important; 
+    letter-spacing: 2px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.sign-btn:hover{
+    transition: all 0.5s ease !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+.cancel-btn{
+    border: 1px solid var(--color) !important;
+    background-color: transparent !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    font-family: 'Popins', sans-serif !important;
+    font-size: 15px !important;
+    color: var(--color) !important;
+    padding: 10px 20px !important;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: none !important;
+}
+
+.cancel-btn:hover{
+    transition: all 0.5s ease-in !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+    background-color: var(--color) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.getstart-btn{
+    position: fixed;
+    z-index: 888;
+    bottom: 40px;
+    right: 50px;
+    display: block;
+}
+
+.getstart-btn button{
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: rgb(255, 248, 236);
+    background-color: var(--color);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 2px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.getstart-btn button:hover{
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.social-btn{
+    background-color: var(--color) !important;
+    border: none !important;
+}
+
+/** GET STARTED BUTTON END**/
