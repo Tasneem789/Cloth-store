@@ -62,7 +62,7 @@
 
                 <div class="cart">
                     <span class="badge rounded-pill badge-notification bg-danger" style="background-color: #7971ea !important;">2</span>
-                    <p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+                    <p><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></p>
                 </div>
 
 
@@ -150,7 +150,74 @@
             </div>
           </nav>
     </div>
+        
+    
+    <div class="getstart-btn">
+        <button id="OpenBtn" onclick="OpenForm()">get started</button>
+    </div>
 
+
+
+        <div class="signup-div animate col-lg-5 col-md-12 col-sm-12 mx-auto">
+        <form id="SignForm" class="signup-form col-lg-5 col-md-12 col-sm-12 mx-auto">
+            <h3>Join our store</h3>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example1" class="form-control" />
+                  <label class="form-label" for="form3Example1">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example2" class="form-control" />
+                  <label class="form-label" for="form3Example2">Last name</label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control" />
+              <label class="form-label" for="form3Example3">Email address</label>
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form3Example4" class="form-control" />
+              <label class="form-label" for="form3Example4">Password</label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn sign-btn btn-primary btn-block mb-4">Sign up</button>
+    
+            <button type="submit" class="btn cancel-btn btn-primary btn-block mb-4" onclick="CancelForm()">Cancel</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>or sign up with:</p>
+              <button type="button" class="btn social-btn btn-primary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+          
+              <button type="button" class="btn social-btn btn-primary btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+          
+              <button type="button" class="btn social-btn btn-primary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+          
+              <button type="button" class="btn social-btn btn-primary btn-floating mx-1">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </form>
+    </div>
+
+
+    
 
     <section>
         <div class="sign-div">
@@ -204,17 +271,18 @@
             <div class="tank-numb">
                 <div class="number-input">
                     <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
-                    <div class="input-div"><input class="quantity" min="0" name="quantity" value="1" type="number" max="100" min="1"></div>
+                    <div class="input-div"><input id="InputQuantity" class="quantity" min="0" name="quantity" value="1" type="number" max="100" min="1"></div>
                     <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
                   </div>
                 </div>
 
             <div class="tank-btn">
-                <a href="cart.html" style="text-decoration: none;">add to cart</a>
+                <a href="cart.html" onclick="GetQuantity()" style="text-decoration: none;">add to cart</a>
             </div>
         </div>
     </div>
     </section>
+
 
 
 
@@ -338,6 +406,17 @@
     </footer>
 
 
+
+
+
+
+
+
+
+
+
+            <!--MY SCRIPT-->
+            <script type="text/javascript" src="script.js"></script>
             <!-- jQuery -->
             <script type="text/javascript" src="js/jquery.min.js"></script>
             <!-- Bootstrap tooltips -->
