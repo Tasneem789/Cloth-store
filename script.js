@@ -40,3 +40,12 @@
         
             }
          }
+          function OpenForm(){
+          document.getElementById('SignForm').style.display='block';
+          document.getElementById('OpenBtn').style.display='none';
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+          }
+          function CancelForm(){
+          document.getElementById('SignForm').style.display='none';
+          document.getElementById('OpenBtn').style.display='block';
+          }
